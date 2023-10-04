@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+table,
+th,
+td {
+    border: 2px solid #cacaca;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
